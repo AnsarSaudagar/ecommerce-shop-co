@@ -48,3 +48,32 @@
     margin-left: 20px;
     font-weight: 500px;
 }
+
+
+/* For signup offer */
+
+#signup-offer{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#signup-offer p{
+    color: white;
+    font-size: 14px;
+}
+
+#signup-offer.closed{
+    display: none;
+}
+
+#signup-offer .cross{
+    color: white;
+    position: absolute;
+    right: 1rem;
+    font-size: 18px;
+    cursor: pointer;
+}
