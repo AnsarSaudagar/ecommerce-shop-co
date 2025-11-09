@@ -4,7 +4,7 @@
 </div>
 <nav id="navbar">
     <p id="main-logo">SHOP.CO</p>
-    <ul>
+    <ul id="main-nav">
         <li>Shop<i style="margin-top: 4px; margin-left: 5px;" class="ph ph-caret-down"></i></li>
         <li>On Sale</li>
         <li>New Arrivals</li>
