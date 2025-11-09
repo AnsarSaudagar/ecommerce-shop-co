@@ -55,4 +55,13 @@ abstract class BaseController extends Controller
 
         // E.g.: $this->session = service('session');
     }
+
+    protected function render(string $view, array $data = [], string $layout = 'layouts/main')
+    {
+        // Render the requested view first
+        $data['content'] = view($view, $data);
+
+        // Then render it inside the layout
+        return view($layout, $data);
+    }
 }

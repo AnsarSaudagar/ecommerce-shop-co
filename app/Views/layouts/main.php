@@ -7,5 +7,9 @@
     <title>Shop.co</title>
 </head>
 <body>
+    <h1>Hello world</h1>
+    <main>
+        <?= $content ?? '' ?>
+    </main>
 </body>
 </html>
