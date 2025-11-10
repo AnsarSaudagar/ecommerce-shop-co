@@ -32,7 +32,8 @@ header button:first-of-type {
 
 .data-display {
   display: flex;
-  margin-top: 50px;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .data-display .data h2 {
@@ -112,9 +113,9 @@ header button:first-of-type {
     border-radius: 8px;
     border-right: 1px solid #dad8d9;
   }
-  
+
   .data p{
-    font-size: 0.9rem !important;
+    font-size: 0.rem !important;
   }
 
   .item3 {
