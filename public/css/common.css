@@ -1,0 +1,13 @@
+body{
+    font-family: 'Satoshi';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+ul{
+    list-style: none
+}
